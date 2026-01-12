@@ -108,8 +108,8 @@ T4  Server sends "notification" → ✅ RECEIVED
 
 ```bash
 # Clone the repository
-git clone <repo-url>
-cd sse-diagnostics
+git clone <https://github.com/ajaygodbole7/sse-demo2>
+cd sse-demo2
 
 # Install server dependencies
 cd server
@@ -434,9 +434,9 @@ const delay = Math.min(30000, 1000 * Math.pow(2, attempt - 1));
 
 ---
 
-## Server Requirements
+## SSE Server Requirements
 
-For the polyfill to work correctly, the SSE server must:
+For the Event Source polyfill to work correctly, the SSE server must:
 
 ### Send Correct Headers
 
