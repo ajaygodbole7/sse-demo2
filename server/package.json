@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "tsx server.ts"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^10.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
